@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@200;300;400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: "Overpass", sans-serif;
+    background-color: hsl(216, 12%, 8%);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.rpage{
+    background-color: hsl(213, 19%, 18%);
+    height:55vh;
+    width:30vw;
+    border-radius: 20px;
+    padding:40px 30px 0;
+}   
+#star{
+ width:30px;
+ height:30px;
+}
+#back{
+    height:50px;
+    width:50px;
+    border: 1px solid transparent;
+   border-radius: 50%;
+   background-color: hsl(217, 13%, 28%);
+}
+h3{
+    padding:40px 10px 15px;
+    word-spacing: 4px;
+    font-size: 30px;
+    color:hsl(0, 0%, 100%)
+}
+p{
+    
+    font-size: 18px;
+    margin:0 0 20px 10px;
+    padding-bottom: 25px;
+    color:hsl(217, 12%, 63%)
+}
+
+.rating {
+    display: flex;
+    cursor: pointer;
+  }
+
+  .rating input[type="radio"] {
+    display: none; 
+  }
+
+  .rating label {
+    color: #888;
+    cursor: pointer;
+    margin:0 15px 10px;
+    padding:15px 20px;
+    border:1px solid transparent;
+    border-radius: 50%;
+    background-color: hsl(219, 13%, 21%);
+  }
+
+.rating input[type="radio"]:checked + label {
+    background-color: hsl(25, 97%, 53%);
+    color:white;
+  }
+label:hover{
+    background-color: hsl(216, 12%, 54%);
+    color:white;
+}
+ #submit{
+    margin:10px 15px;
+    height: 50px;
+    width:90%;
+    font-size: 18px;
+    color:white;
+    letter-spacing: 2px;
+    cursor: pointer;
+    background-color: hsl(25, 97%, 53%) ;
+   border: 1px solid transparent;
+   border-radius: 25px;
+}
+#submit:hover{
+    color:hsl(25, 97%, 53%);
+    letter-spacing: 2px;
+    background-color: white ;
+}
+.tpage{
+    display: none;
+}
+.t-style{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.tpage img{
+   margin-top: -30px;
+    margin-bottom: 25px;
+    margin-left: 100px;
+    width:200px;
+    height:150px;
+}
+#select{
+    background-color: hsl(220, 10%, 24%);
+    color:hsl(25, 97%, 53%);
+    border:1px solid transparent;
+    border-radius: 25px;
+    width:60%;
+    padding:11px 18px;
+    margin-bottom: 25px;
+    margin-left: 80px;
+}
+.tpage span{
+    font-size: 40px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    color: white;
+
+}
+.tpage p{
+    width:90%;
+    margin-left: 40px;
+}
+@media (max-width: 720px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+      height:80vh;
+    }
+    
+    .rpage {
+      width: 80%;
+    }
+    
+    h3 {
+      font-size: 18px;
+        padding: 5px;
+    }
+    
+    p {
+      font-size: 13px;
+      margin:0;
+      padding: 5px;
+    }
+    #star{
+        width:15px;
+        height:15px;
+       }
+    #back{
+           margin:-10px 0 10px;
+           height:30px;
+           width:30px;
+    }
+    .rating label {
+      margin: 5px;
+      padding: 10px;
+      font-size: 12px;
+    }
+   
+    .tpage img{
+        margin:-20px 110px 10px;
+        padding:0;
+         width:120px;
+         height:80px;
+     }
+    
+     .tpage span{
+         font-size: 20px;
+         margin:0 120px 0;
+         padding:0;
+     }
+     #select{
+        margin-top: 20px;
+        padding:0 30px ;
+     }
+     .tpage p{
+        padding:10px 0;
+        font-size: 12px; 
+     }
+    #submit{
+        margin:10px 55px;
+        height: 20px;
+        width:80px;
+        font-size: 12px;
+    }
+  }
+  
