@@ -139,54 +139,56 @@ label:hover{
     }
     
     h3 {
-      font-size: 18px;
-        padding: 5px;
+      font-size: 20px;
+        padding: 15px;
     }
     
     p {
-      font-size: 13px;
+      font-size: 16px;
       margin:0;
-      padding: 5px;
+      padding:15px;
     }
     #star{
-        width:15px;
-        height:15px;
+        width:25px;
+        height:25px;
        }
     #back{
-           margin:-10px 0 10px;
-           height:30px;
-           width:30px;
+           margin:-10px 0 10px 12px;
+           height:40px;
+           width:40px;
     }
     .rating label {
-      margin: 5px;
-      padding: 10px;
-      font-size: 12px;
+      
+      margin: 12px;
+      padding: 15px;
+      font-size: 14px;
     }
    
     .tpage img{
-        margin:-20px 110px 10px;
+        margin:-20px 60px 10px;
         padding:0;
-         width:120px;
-         height:80px;
+         width:150px;
+         height:100px;
      }
     
      .tpage span{
          font-size: 20px;
-         margin:0 120px 0;
+         margin:0 0 0 100px;
          padding:0;
      }
      #select{
-        margin-top: 20px;
-        padding:0 30px ;
+        margin: 10px 0 10px 50px;
+        padding:0 10px ;
      }
      .tpage p{
-        padding:10px 0;
+        padding: 0;
+        margin:15px 7px;
         font-size: 12px; 
      }
     #submit{
-        margin:10px 55px;
-        height: 20px;
-        width:80px;
+        margin:10px 85px;
+        height: 50px;
+        width:120px;
         font-size: 12px;
     }
   }
